@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Cape Recommends</title>
+    <title>Cape Cod Recommends</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -20,10 +20,10 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><h3 class="m-0 fst-italic">
+        <a class="navbar-brand" href="index.html"
+          ><h3 href="index.html" class="m-0 fst-italic">
             Cape Cod Recommends
             <!-- Logo da Empresa Aqui Caso venha a ter no futuro<img
               class="d-block"
@@ -46,10 +46,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Places</a>
+              <a class="nav-link" href="about.html">Places</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Shops</a>
@@ -139,8 +141,8 @@
             alt="Second slide"
           />
           <div class="carousel-caption position-absolute posicao">
-            <h5 class="fs-1 fw-bold">Cape Cod Recommends</h5>
-            <p class="fs-4 fw-bold">
+            <h5 class="fs-1 fw-bold d-none d-md-block">Cape Cod Recommends</h5>
+            <p class="fs-4 fw-bold d-none d-md-block">
               Make the most of your adventure with our interactive guide! .
             </p>
           </div>
@@ -163,8 +165,8 @@
             alt="Third slide"
           />
           <div class="carousel-caption position-absolute posicao">
-            <h5 class="fs-1 fw-bold">We Recommend It!</h5>
-            <p class="fs-4 fw-bold">
+            <h5 class="fs-1 fw-bold d-none d-md-block">We Recommend It!</h5>
+            <p class="fs-4 fw-bold d-none d-md-block">
               Discover the best chef-driven restaurants and explore must-visit
               destinations like Cape Cod's beautiful beaches, water activities,
               museums and unique boutiques. Get expert advice, directions and
@@ -193,7 +195,7 @@
       </button>
     </div>
 
-    <h2 class="container text-center my-3 my-xl-5">Trending now</h2>
+    <h2 class="container text-center my-3 my-xl-5">Trending Now</h2>
     <!-- Cards1 -->
     <div class="container row mx-auto g-4">
       <div class="col-6 col-md-4 col-xxl-2">
@@ -211,9 +213,15 @@
             src="./assets/Desktop/categorias/categoria-camiseta.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">Açaí Mania</p>
-          </div>
+          <a
+            href="https://luizbhz26.github.io/acaiMania/"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">Açaí Mania</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -232,9 +240,15 @@
             src="./assets/Desktop/categorias/categoria-oculos.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">Route 28 Diner</p>
-          </div>
+          <a
+            href="https://route28dinercapecod.com/"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">Route 28 Diner</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -253,9 +267,15 @@
             src="./assets/Desktop/categorias/categoria-calcados.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">908 Bistro</p>
-          </div>
+          <a
+            href="https://908bistro.com/"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">908 Bistro</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -274,9 +294,15 @@
             src="./assets/Desktop/categorias/categoria-calcas.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">Skull Island</p>
-          </div>
+          <a
+            href="https://skullislandcapecod.com/"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">Skull Island</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -295,9 +321,15 @@
             src="./assets/Desktop/categorias/categoria-casacos.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">Red Jacket</p>
-          </div>
+          <a
+            href="https://www.redjacketresorts.com/resorts/beach-resort"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">Red Jacket</p>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -316,9 +348,15 @@
             src="./assets/Desktop/categorias/categoria-bolsas.png"
             alt="Camiseta Masculina Verde"
           />
-          <div class="card-header bg-dark text-bg-dark">
-            <p class="text-center card-text">Luke's</p>
-          </div>
+          <a
+            href="https://www.lukescapecod.com/"
+            class="btn w-100 bg-black text-white border-0"
+            target="_blank"
+          >
+            <div class="card-header bg-dark text-bg-dark">
+              <p class="text-center card-text m-0">Luke's</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -347,8 +385,9 @@
               Cape Cod restaurants offer a mix of fresh seafood shacks, classic
               New England fare, and cozy diners with ocean views.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/restaurants"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>
@@ -377,8 +416,9 @@
               through serene marshes, exploring historic lighthouses, and
               strolling charming villages.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/activities"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>
@@ -406,8 +446,9 @@
               Cape Cod boasts rich history with maritime museums, art galleries,
               and cultural sites like the Kennedy Museum and Heritage Museums.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/museumandculture"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>
@@ -436,8 +477,9 @@
               coastal-themed stores, perfect for unique finds and local
               treasures.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/shopping"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>
@@ -466,8 +508,9 @@
               liquor shops, featuring coastal-inspired flavors and New
               England-made spirits.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/map"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>
@@ -495,8 +538,9 @@
               Cape Cod features relaxing spas and wellness centers offering
               rejuvenating treatments with coastal views and serene settings.
             </p>
-            <p class="fw-bold">-</p>
-            <a href="#" class="btn btn-primary botao-lilas border-0"
+            <a
+              href="https://www.thecaperecommends.com/wellnessandspa"
+              class="btn btn-primary botao-lilas border-0"
               >See More</a
             >
           </div>

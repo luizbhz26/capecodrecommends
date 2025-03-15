@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>About Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-black navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><h3 href="index.html" class="m-0 fst-italic">
+            Cape Cod Recommends
+            <!-- Logo da Empresa Aqui Caso venha a ter no futuro<img
+              class="d-block"
+              src="./assets/logo-meteora.png"
+              alt="Company Logo"
+            />-->
+          </h3></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hotels</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Type here"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- Slide1 -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="img-fluid d-md-none w-100"
+            src="./assets/Mobile/banner1-mobile.png"
+            alt="First slide"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none w-100"
+            src="./assets/Tablet/banner1-tablet.png"
+            alt="First slide"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block w-100"
+            src="./assets/Desktop/banner1-desktop.png"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+        <!-- Slide2 -->
+        <div class="carousel-item position-relative">
+          <img
+            class="img-fluid d-md-none w-100"
+            src="./assets/Mobile/banner2-mobile.png"
+            alt="Second slide"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none w-100"
+            src="./assets/Tablet/banner2-tablet.png"
+            alt="Second slide"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block w-100"
+            src="./assets/Desktop/banner2-desktop.png"
+            alt="Second slide"
+          />
+          <div class="carousel-caption position-absolute posicao">
+            <h5 class="fs-1 fw-bold">Cape Cod Recommends</h5>
+            <p class="fs-4 fw-bold">
+              Make the most of your adventure with our interactive guide! .
+            </p>
+          </div>
+        </div>
+        <!-- Slide3 -->
+        <div class="carousel-item position-relative">
+          <img
+            class="img-fluid d-md-none w-100"
+            src="./assets/Mobile/banner3-mobile.png"
+            alt="Third slide"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none w-100"
+            src="./assets/Tablet/banner3-tablet.png"
+            alt="Third slide"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block w-100"
+            src="./assets/Desktop/banner3-desktop.png"
+            alt="Third slide"
+          />
+          <div class="carousel-caption position-absolute posicao">
+            <h5 class="fs-1 fw-bold">We Recommend It!</h5>
+            <p class="fs-4 fw-bold">
+              Discover the best chef-driven restaurants and explore must-visit
+              destinations like Cape Cod's beautiful beaches, water activities,
+              museums and unique boutiques. Get expert advice, directions and
+              promotions to create lasting memories!
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h2 class="container text-center my-3 my-xl-5">Trending now</h2>
+    <!-- Card Our Mission -->
+    <section class="pb-4 bg-black text-bg-dark">
+      <h2 class="text-center py-3 mb-4 mt-1">Our Mission</h2>
+
+      <div
+        class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3"
+      >
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="verde-limao bi bi-x-diamond fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1 verde-limao">CURATED LOCAL EXPERIENCES</div>
+            <div class="texto-menor ms-3">
+              Discover must-visit destinations, from beaches to boutiques, for
+              all types of adventurers.
+            </div>
+          </div>
+        </div>
+
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="verde-limao bi bi-arrow-repeat fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1 verde-limao">SUPPORTING LOCAL BUSINESSES</div>
+            <div class="texto-menor ms-3">
+              We support Cape Cod local economy by recommending authentic,
+              locally-owned businesses to give tourists a genuine experience.
+            </div>
+          </div>
+        </div>
+
+        <div class="divs-facilidades d-flex align-items-center">
+          <div><i class="verde-limao bi bi-flower1 fs-1"></i></div>
+          <div>
+            <div class="ms-3 mb-1 verde-limao">SUSTAINABILITY</div>
+            <div class="texto-menor ms-3">
+              Promoting sustainability on Cape Cod by supporting eco-friendly
+              businesses and preserving the region's natural beauty.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EmailForm -->
+    <form class="border border-secondary m-3 p-3 text-center">
+      <h5>
+        Want to receive our updates, exclusive promotions, and 10% OFF on your
+        first purchase? Sign up!
+      </h5>
+      <div class="input-group my-3">
+        <input
+          type="email"
+          class="form-control border-secondary rounded-0"
+          placeholder="Type your e-mail"
+          aria-label="Type your e-mail"
+          aria-describedby="button-addon2"
+        />
+        <button type="button" id="button-addon2">Send</button>
+      </div>
+    </form>
+    <!-- Footer -->
+    <footer class="text-center bg-black text-bg-dark p-1">
+      <p class="card-text py-3">
+        2025 <i class="bi bi-c-circle"></i> Developed by Andrade
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
